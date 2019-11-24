@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/custom/center.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+    <link rel="manifest" href="assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    
+    <title>UpFlow - Challenge</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card" style="margin-top:30px">
+           <img class="card-img-top" src="assets/img/uplogo.png" alt="Card image cap">
+            <div class="card-body">
+                <h2 class="card-title">Upflow - Challenge</h2>
+                <hr/>     
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="qtd_campos">Quantidade de campos: </label>
+                            <input class="form-control" type="number" id="qtd_campos" placeholder="Informe a quantidade de campos que deseja gerar: " required> 
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" id="gerar_campos" class="btn btn-primary">Gerar Campos</button>
+                <button type="reset" id="apagar_valores" class="btn btn-danger">Limpar Campos</button>
+                <hr/>
+                <h1>Campos gerados: </h1>
+                <div class="resultados" id="resultados">
+                </div>
+                <button class="btn btn-success" id="btn-somar">Somar!</button>
+                <hr/>
+                <div class="resultado_final">
+                   <h1 class="resultado_div">Resultado do somatório: </h1>  
+                </div>
+            </div>
+        </div>
+    </div> <!-- ./container -->
+    <script src="assets/jquery/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="app/app.js"></script>
+</body>
+</html>
