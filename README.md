@@ -9,6 +9,3 @@
     - Caso o usuário deixe algum campo vazio, ou preencha a informação com qualquer caractere não numérico, deverá ser tratado do erro na aplicação.
     - Apenas se todos estiverem preenchidos, a soma poderá ser feita e exibida para o usuário.
 
-# Editor.md
-
-
